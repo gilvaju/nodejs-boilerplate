@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express'
-import { Pessoa } from '@entities/pessoa'
+import { Pessoa } from '@domain/propostas/entities/pessoa'
 
 const server = express()
 

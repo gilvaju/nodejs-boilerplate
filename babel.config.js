@@ -13,7 +13,7 @@ module.exports = {
   plugins: [
     ['module-resolver', {
       alias: {
-        '@entities': './src/core/entities/*'
+        '@domain': './src/core/domain/*'
       }
     }]
   ],
