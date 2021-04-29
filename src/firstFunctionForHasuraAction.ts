@@ -5,6 +5,15 @@ const app = express()
 const fetch = require('node-fetch')
 const PORT = process.env.PORT || 3000
 
+// mutation {
+//   criarPessoa(email: "teste2@teste.com") {
+//     id
+//     email
+//     identificador
+//     nome
+//   }
+// }
+
 app.use(bodyParser.json())
 
 const HASURA_OPERATION = `
